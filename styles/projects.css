@@ -9,11 +9,16 @@
     align-items: center;
 }
 
+.project-container::after {
+    content: "";
+    width: 49.5%;
+}
+
 .project-card {
     aspect-ratio: 1.618 / 1;
     background-color: #fff;
     width: 24%;
-    margin: 0.67% 0; 
+    margin: 0.5% 0; 
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -39,7 +44,12 @@
 @media screen and (max-width: 992px) {
     .project-card {
         flex: 30%;
-        margin: 10px;
+        margin: 0.5%;
+    }
+
+    .project-container::after {
+        content: "";
+        width: 33.5%;
     }
 
     .project-container {

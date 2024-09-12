@@ -9,10 +9,31 @@
     margin: 0.5rem 0;
 }
 
+.time p {
+    float: right;
+}
+
 p {
     color: #404040;
 }
 
 .cv-title {
     grid-column: 1 / span 2;
+}
+
+.cv-mark {
+    font-weight: bold;
+}
+
+.description {
+    margin-left: 1em;
+    font-style: italic;
+}
+
+.cv-list {
+    margin: 0;
+}
+
+li {
+    color: #404040;
 }
